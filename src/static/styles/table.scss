@@ -1,0 +1,62 @@
+table{
+    width:100%;
+    border-collapse: separate;
+    border-spacing: 10px;
+    tr{
+        height: 130px;
+        td{
+            height: 130px;
+            width: 130px;
+            text-align: center;
+            vertical-align: middle;
+            color: white;
+            border-radius: 10px;
+            background-color: rgba(227, 226, 226, 1);
+            font-size: 12px;
+        }
+        td.full{
+            background-color: rgb(107, 165, 152);
+        }
+        .time{
+            background-color: rgba(157, 200, 191, 1);
+            height: 130px;
+            width: 90px;
+            font-size: 20px;
+            font-weight: 700;
+        }
+    }
+    .header{
+        height: 45px;
+        .time{
+            background-color: rgba(0, 0, 0, 0);
+        }
+        td{
+            background-color: rgba(157, 200, 191, 1);
+            height: 45px;
+            font-size: 20px;
+            font-weight: 700;
+        }
+    }
+}
+@media(max-width:790px){
+    table{
+        min-width: 1000px;
+        tr{
+            height: 90px;
+            td{
+                height: 90px;
+                width: 90px;
+            }
+            .time{
+                height: 90px;
+                width: 40px;
+            }
+        }
+        .header{
+            height: 40px;
+            td{
+                height: 40px;
+            }
+        }
+    }
+}

@@ -1,0 +1,42 @@
+.coach-s1{
+text-align: center;
+}
+.s1{
+    width: 100%;
+    max-width: 1200px;
+    padding: 60px 0;
+    p{
+        font-size: 20px;
+        font-weight: 600;
+        color: rgba(11, 51, 42, 1);
+        margin-bottom: 15px;
+    }
+    .coaches-cards{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}
+@media(max-width:1199px){
+    .s1{
+        p{
+            margin: 0 30px;
+        }
+        .coaches-cards{
+            margin: 0 30px;
+        }
+    }
+}
+@media(max-width:790px){
+    .s1{
+        p{
+            margin: 0 10px;
+        }
+        .coaches-cards{
+            margin: 0 10px;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}

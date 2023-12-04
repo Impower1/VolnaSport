@@ -1,0 +1,94 @@
+.footer-wrapper{
+    background-color: rgba(157, 200, 191, 1);
+    footer{
+        max-width: 1440px;
+        margin: 30px 30px;
+        width: 100%;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .footer-left{
+            .footer-left-bottom{
+                display: flex;
+                align-items: center;
+            }
+            h3{
+                font-weight: 500;
+                font-size: 20px;
+            }
+            p{
+                font-weight: 500;
+                font-size: 20px;
+            }
+        }
+        .footer-right{
+            p{
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 30px;
+            }
+        }
+    }
+}
+@media(max-width: 1500px){
+    .footer-wrapper{
+        footer{
+            .footer-left{
+                margin-left: 30px;
+            }
+            .footer-right{
+                margin-right: 30px;
+            }
+        }
+    }
+}
+@media(max-width: 1199px){
+    .footer-wrapper{
+        overflow: hidden;
+        footer{
+            .footer-left{
+                margin-left: 30px;
+                h3{
+                    font-size: 16px;
+                }
+                p{
+                    font-size: 16px;
+                }
+            }
+            .footer-right{
+                margin-right: 30px;
+                p{
+                    font-size: 16px;
+                    line-height: 20px;
+                }
+            }
+        }
+    }
+}
+@media(max-width: 790px){
+    .footer-wrapper{
+        footer{
+            .footer-left{
+                .footer-left-bottom{
+                    flex-direction: column;
+                    align-items: flex-start;
+                }
+                margin-left: 10px;
+                h3{
+                    font-size: 12px;
+                }
+                p{
+                    font-size: 12px;
+                }
+            }
+            .footer-right{
+                margin-right: 10px;
+                p{
+                    font-size: 12px;
+                    line-height: 14px;
+                }
+            }
+        }
+    }
+}

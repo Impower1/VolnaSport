@@ -1,0 +1,85 @@
+.quiz{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    .progress{
+        margin: 30px 0;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: lightgrey;
+        height: 5px;
+        flex-grow: 1;
+        div{
+            height: 4px;
+            width: 100%;
+        }
+        .one{
+            background-color: rgb(220, 157, 79);
+        }
+        .two{
+            background-color: rgb(120, 198, 120);
+        }
+        .three{
+            background-color: rgb(86, 86, 231);
+        }
+        .four{
+            background-color: rgb(112, 7, 112);
+        }
+        .five{
+            background-color: rgb(215, 97, 117);
+        }
+    }
+    button{
+        font-size: 20px;
+        font-weight: 700;
+        padding: 10px 25px;
+        color: white;
+        border: none;
+        border-radius: 100px;
+    }
+    .btn-0{
+        background-color: rgb(220, 157, 79);
+    }
+    .btn-1{
+        background-color: rgb(120, 198, 120);
+    }
+    .btn-2{
+        background-color: rgb(86, 86, 231);
+    }
+    .btn-3{
+        background-color: rgb(112, 7, 112);
+    }
+    .btn-4{
+        background-color: rgb(215, 97, 117);
+    }
+    .send{
+        margin-top: 15px;
+        background-color:black;
+    }
+    form{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+        input{
+            padding: 10px 20px;
+            border-radius: 100px;
+            font-size: 20px;
+        }
+    }
+    h2{
+        font-size: 30px;
+        margin: 20px;
+    }
+}
+@media(max-width: 790px){
+    .quiz{
+        width: 90%;
+    }
+}

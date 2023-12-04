@@ -1,0 +1,35 @@
+@import './nullStyles';
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap');
+@import './Header.scss';
+@import './Footer.scss';
+@import './infografic.scss';
+@import './cards.scss';
+@import './quiz.scss';
+@import './slide.scss';
+@import './simpleSlider.scss';
+@import './topButton.scss';
+@import './burger.scss';
+@import './section.scss';
+@import './subscriptionCard.scss';
+@import './coachesCard.scss';
+@import './table.scss';
+@import './modal.scss';
+
+body{
+    font-family: 'Inter', sans-serif;
+}
+h1{
+    font-size: 59px;
+    font-weight: 600;
+}
+h2{
+    font-size: 50px;
+    font-weight: 600;
+}
+.wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
